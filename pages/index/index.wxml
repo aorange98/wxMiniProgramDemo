@@ -1,4 +1,3 @@
-<!--index.wxml-->
 <view class="container">
   <view class="form-wrap">
     <view class="form-item" wx:for="{{allForm}}" wx:key="index">
