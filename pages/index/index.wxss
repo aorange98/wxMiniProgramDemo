@@ -1,0 +1,57 @@
+.container{
+  padding: 25rpx;
+}
+
+/* 上面整个盒子 */
+.form-wrap{
+  background-color:#fff;
+  padding-bottom: 20rpx;
+}
+
+.form-item{
+  display: flex;
+  height: 70rpx;
+  align-items: center;
+  padding: 20rpx 30rpx 10rpx;
+}
+
+.form-item-left{
+  color: #979797;
+  width: 40%;
+}
+.form-item-right {
+  height: 100%;
+}
+.form-item-right input{ 
+  background-color:#fafafa;
+  height: 100%;
+  width: 430rpx;
+}
+
+/* 按钮 */
+.btn{
+  padding: 20rpx;
+}
+.btn button{
+  margin:0 15rpx!important;
+}
+.button-left{
+  float: left;
+  width: 192rpx!important;
+  height:152rpx!important;
+  font-size: 28rpx;
+  line-height: 98rpx;
+}
+
+.button-right{
+  display: inline-block;
+  width: 190rpx!important;
+  height:70rpx!important;
+  font-size: 28rpx;
+  padding: 0;
+  line-height: 66rpx;
+}
+
+.list{
+  margin: 20rpx 0;
+}

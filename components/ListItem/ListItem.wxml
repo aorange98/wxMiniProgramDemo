@@ -1,0 +1,14 @@
+<view class="list-item">
+  <view class="list-ltem-left">
+    <view class="raduis">{{item.num}}</view>
+  </view>
+  <view class="list-ltem-middle">
+    <view class="title">{{item.title}}</view>
+    <view class="name">{{item.name}}</view>
+    <view class="time">{{item.time}}</view>
+  </view>
+  <view class="list-ltem-right">
+    <view class="price">{{item.price}}元</view>
+    <view class="desc">{{item.status}}</view>
+  </view>
+</view>

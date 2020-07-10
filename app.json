@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#00B26A",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundTextStyle":"dark",
+    "navigationBarTextStyle":"white"
+    
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

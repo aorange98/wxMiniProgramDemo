@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="form-wrap">
+    <view class="form-item" wx:for="{{allForm}}" wx:key="index">
+      <view class="form-item-left">{{item.title}}</view>
+      <view class="form-item-right">
+        <input value="{{item.value}}" data-name="{{item.name}}" bindinput="handleInput"></input>
+      </view>
+    </view>
+    <view class="btn">
+      <block wx:for="{{btnList}}" wx:key="index">
+        <button type="{{item.type}}" plain="{{true}}" class="{{item.class}}"
+          bindtap="handleSelect" data-index="{{index}}"
+        >{{item.title}}</button>
+      </block>
+    </view>
+    <button type="primary" style="width:90%; font-weight:400">查询</button>
+  </view>
+
+  <view class="list">
+    <list-item-components item="{{item}}" wx:for="{{news}}" wx:key="index"/>
+  </view>
+</view>

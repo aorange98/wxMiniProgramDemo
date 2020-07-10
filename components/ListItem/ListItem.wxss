@@ -1,0 +1,40 @@
+.list-item{
+  display: flex;
+  align-content: center;
+  background-color: #fff;
+  height: 150rpx;
+  padding:20rpx 0 20rpx 20rpx;
+  border: 1px solid #e7e7e7;
+  border-radius: 8rpx;
+  margin-bottom: 20rpx;
+}
+.list-ltem-left{
+  width: 15%;
+}
+.list-item .list-ltem-left .raduis{
+  background-color: #eee;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin: 26rpx 0;
+  text-align: center;
+  line-height: 80rpx;
+  color: #9a9a9a;
+}
+
+.list-ltem-middle{
+  flex: 1;
+}
+.list-ltem-right{
+  width: 28%;
+  background-color:#07C160;
+  color: #fff;
+  text-align: center;
+  padding: 35rpx 0;
+  border-radius: 8rpx;
+}
+.name,.time{
+  font-size: 24rpx;
+  color: #bdbdbd;
+}
+
